@@ -1,0 +1,28 @@
+{
+  "name": "SampleWebsiteIntegration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simo101/SampleWebsiteIntegration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simo101/SampleWebsiteIntegration/issues"
+  },
+  "homepage": "https://github.com/simo101/SampleWebsiteIntegration",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "dispatcher": "0.0.2",
+    "http": "^0.0.0",
+    "node": "0.0.0",
+    "openurl": "^1.1.1",
+    "serve-static": "^1.10.2"
+  }
+}

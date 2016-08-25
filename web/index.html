@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mendix Demo load App App</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    </head>
+    <body dir="ltr">
+        <div id="content"></div>
+
+        <script src="js/mxapp.js"></script>
+
+        
+        <script>
+                 $(document).ready(function(){
+                    if (window.mxapp !== undefined) {
+                        mxapp.initialize("https://needitnowapp4.mendixcloud.com/");
+                    }
+                });
+        </script>
+
+    </body>
+</html>

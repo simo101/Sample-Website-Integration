@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mendix Demo load App App</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    </head>
+    <body dir="ltr">
+        <div id="content"></div>
+
+        <script src="js/mxapp.js"></script>
+        <script type="text/javascript">
+      mxapp.parameters = {
+        "action": "openapp",
+        "pLoad": "OHidBGLW25ipyV58+1Cm+G8h5dCJCd9ZjJ3uWCeWALEv8eXrjzqeQB35EwCaghVxvCXC0ySHM/yA9MLwAJTajhIGX3xZsxJV+TATizcSynr9RQHQehXHgWaDB7qX5fcUV1yJXVXIgCgmRjcjwtL9gCIyb12glnUwewQNyACfFek/LJVmPo7JhYAhPGb8dCc6OkGjaKJaipja8duQu0Z3gAigf/m8wds7mjz09Q+yVbIA2a/cJ15s1NmGl/Mg3VjyOij3vx6f8VNVbnF6sgwQSUew/3PyqIGjbANye5NJr5qOGw12JtomT3+0RX1fijK5"
+      };
+    </script>
+
+        
+        <script>
+                 $(document).ready(function(){
+                    if (window.mxapp !== undefined) {
+                        mxapp.initialize("http://localhost:8080");
+                    }
+                });
+        </script>
+
+    </body>
+</html>
